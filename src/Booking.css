@@ -1,0 +1,64 @@
+
+
+.modal-title-custom {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #060607;
+  text-align: center;
+}
+
+.modal-body {
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 11px;
+}
+
+.form-label {
+  font-weight: 600;
+  color: #333;
+}
+
+.form-control {
+  border-radius: 5px;
+  border: 1.5px solid #ced4da;
+  padding: 10px;
+  font-size: 14px;
+}
+
+.form-control:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+  .btnbooking12 {
+  background-color: #2470c0;
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: bold;
+ 
+} 
+ 
+ .btnbooking12:hover {
+  background-color: #0973e4;
+}  
+
+@media (max-width: 768px) {
+  .modal-title-custom {
+    font-size: 1.2rem;
+  }
+
+  .modal-body {
+    padding: 15px;
+  }
+
+  .form-control {
+    font-size: 13px;
+    padding: 8px;
+  }
+
+  button.btn-primary {
+    font-size: 14px;
+    padding: 8px;
+  }
+}

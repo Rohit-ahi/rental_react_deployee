@@ -1,0 +1,44 @@
+
+  .change h2 {
+    font-size: 1.8rem; /* Default font-size */
+  }
+  
+  .change h5 {
+    font-size: 1rem; /* Default font-size */
+  }
+  
+  @media (min-width: 768px) {
+    /* Tablet and larger screens */
+    .change h2 {
+      font-size: 2.2rem;
+    }
+    .change h5 {
+      font-size: 1.1rem;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    /* Laptop and larger screens */
+    .change h2 {
+      font-size: 2.5rem;
+    }
+    .change h5 {
+      font-size: 1.2rem;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    .change_content{
+        margin-left: 250px;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    /* Extra-large screens */
+    .change h2 {
+      font-size: 3rem;
+    }
+    .change h5 {
+      font-size: 1.4rem;
+    }
+  }
+  
